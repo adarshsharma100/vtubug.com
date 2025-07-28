@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- *******  Link To CSS Style Sheet  ******* -->
+	<link rel="stylesheet" type="text/css" href="contact.css">
+
+	<!-- *******  Font Awesome Icons Link  ******* -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!-- *******  Link To Goggle Fonts  *******  -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Contact Section</title>
+	<link rel="shortcut icon" href="lo.png" type="image/png">
+
+</head>
+<body>
+
+	<div class="container">
+		<main class="row">
+			
+			<!--  *******   Left Section (Column) Starts   *******  -->
+
+			<section class="col left">
+				
+				<!--  *******   Title Starts   *******  -->
+
+				<div class="contactTitle">
+					<h2>We're Here to Help You Succeed!</h2>
+					<p>Have questions, feedback, or need assistance with your studies? We are here to support you every step of the way. Whether you're looking for study tips, have technical issues, or need guidance on using our resources, don't hesitate to reach out.</p>
+				</div>
+				<div class="head">
+					<strong><p>We aim to respond to all inquiries within 24 hours. Your success is our priority!</p></strong>
+				</div>
+
+				<!--  *******   Title Ends   *******  -->
+
+				<!--  *******   Contact Info Starts   *******  -->
+
+				<div class="contactInfo">
+					
+				<!--	<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-brands fa-whatsapp"></i>
+						</div>
+						<div class="details">
+							<span>Phone</span>
+							<span>+00 110 111 00</span>
+						</div>
+					</div>-->
+
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-envelope"></i>
+						</div>
+						<div class="details">
+							<span>Email</span>
+							<span><a href="mailto:contact@vtubug.com">contact@vtubug.com</a></span>
+						</div>
+					</div>
+
+					<div class="iconGroup">
+						<div class="icon">
+							<i class="fa-solid fa-location-dot"></i>
+						</div>
+						<div class="details">
+							<span>BANGALORE</span>
+							<span><a href="https://maps.app.goo.gl/VxujK1FvktjRxKQt7">INDIA</a></span>
+						</div>
+					</div>
+
+				</div>
+
+				<!--  *******   Contact Info Ends   *******  -->
+
+			</section>
+
+			<!--  *******   Left Section (Column) Ends   *******  -->
+
+			<!--  *******   Right Section (Column) Starts   *******  -->
+
+			<section class="col right">
+				
+				<!--  *******   Form Starts   *******  -->
+
+				<form action="https://api.web3forms.com/submit" method="POST" class="messageForm">
+					<input type="hidden" name="access_key" value="271b9337-210a-4a68-abf9-33c22f7fe83e">
+
+					<div class="inputGroup halfWidth">
+						<input type="text" name="name" required="required">
+						<label>Your Name</label>
+					</div>
+
+					<div class="inputGroup halfWidth">
+						<input type="email" name="email" required="required">
+						<label>Email</label>
+					</div>
+
+					<div class="inputGroup fullWidth">
+						<input type="text" name="subject" required="required">
+						<label>Subject</label>
+					</div>
+
+					<div class="inputGroup fullWidth">
+						<textarea name="message" required></textarea>
+						<label>Say Something</label>
+					</div>
+
+					<div class="inputGroup fullWidth">
+						<button type="submit">Send Message</button>
+					</div>
+
+				</form>
+
+				<!--  *******   Form Ends   *******  -->
+			</section>
+
+			<!--  *******   Right Section (Column) Ends   *******  -->
+
+		</main>
+	</div>
+	 <!-- Floating Button -->
+	 <div class="action" title="Options">
+		<button >
+		  <i class="fa-regular fa-plus"></i>
+		</button>
+		<div class="action-btn">
+	  <div class="btn">
+		<span><a href="login.php" class="bt">Uploads
+		<button><i class="fa-solid fa-upload"></i> </button></a></span>
+		<div class="btn">
+		  <span><a href="about.html" class="bt">About Us
+		  <button> <i class="fa-solid fa-address-card"></i></button></a></span>
+		  <div class="btn">
+			<span><a href="contact.html" class="bt">Contact
+			<button> <i class="fa-solid fa-phone"></i></button></a></span>
+			<div class="btn">
+			  <span><a href="cgpa.html" class="bt">CGPA
+			  <button><i class="fa-solid fa-calculator"></i> </button></a></span>
+			<div class="btn">
+			  <span><a href="index.html" class="bt">Home
+			  <button> <i class="fa-solid fa-house"></i></button></a></span>
+	  </div>
+	  </div>
+	</div>
+	
+	<!-- Floating Button -->
+  
+<script>
+document.querySelector(".action > button").addEventListener("click",
+function(){
+document.querySelector(".action").classList.toggle("active");
+});
+</script>
+</body>
+</html>
